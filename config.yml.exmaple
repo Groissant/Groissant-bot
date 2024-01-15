@@ -1,0 +1,4 @@
+openai_api_key: "your_openai_api_key"
+github_auth_api: "your_github_auth_api"
+use_mock_api: true
+model: "gpt-3.5-turbo"
