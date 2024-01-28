@@ -155,3 +155,4 @@ pytest_cache/
 # Secret Keys
 *.pem
 config.yml
+*.bak

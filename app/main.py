@@ -4,6 +4,10 @@ from github import Github, Auth
 from app import app, gh_integration
 from core import get_response
 
+@app.route("/ping", methods=['GET'])
+def ping():
+    return 'pong'
+
 @app.route("/", methods=['POST'])
 def bot():
     # Get the event payload
