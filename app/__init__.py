@@ -8,7 +8,7 @@ from github import GithubIntegration
 
 # Load config
 load_dotenv()
-APP_ID = int(getenv('APP_ID') if not None else 0) 
+APP_ID = int(getenv('APP_ID') or 0) 
 
 encoded_private_key = getenv('APP_PRIVATE_KEY')
 if encoded_private_key is not None:
