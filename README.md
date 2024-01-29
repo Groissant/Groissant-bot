@@ -27,8 +27,16 @@ pip install -r requirements.txt
 
 To run the application, execute:
 
+development
+
 ``` bash
 python run.py
+```
+
+product
+
+``` bash
+gunicorn -w 4 -b :8000 app:app
 ```
 
 Testing
@@ -37,3 +45,15 @@ Testing
 
 python test_app.py
 ```
+
+## Contributing
+
+Feel free to pick up any [issue](https://github.com/Groissant/Groissant-bot/issues?q=is%3Aissue+is%3Aopen) and create a pull request.
+
+## License
+
+This project is licensed under the [Your License Name] License - see the [LICENSE](./LICENSE) file for details.
+
+## Code of Conduct
+
+To ensure a welcoming and inclusive environment for all our contributors and participants, we adhere to a Code of Conduct. Please read [our Code of Conduct](./CODE_OF_CONDUCT.md) before participating in the project.
